@@ -11,6 +11,7 @@ from langgraph.graph.message import add_messages
 #using hugging face llm model for the query generation
 from langchain_huggingface import HuggingFaceEndpoint,ChatHuggingFace
 import os
+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
 os.environ["LANGCHAIN_API_KEY"] = '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'
 os.environ["LANGCHAIN_TRACING_V2"]="true"
 os.environ["LANGCHAIN_PROJECT"]="CourseLanggraph"
